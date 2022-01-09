@@ -82,4 +82,24 @@ button.signup{
 
 .section.three {
     background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    max-width: 800px;
+}
+
+.quote {
+    font-size: 36px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.cite{
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
 }
