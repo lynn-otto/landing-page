@@ -1,5 +1,5 @@
 .section {
-    height: 250px;
+    height: 400px;
 }
 
 .section.four {
@@ -7,6 +7,7 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    height: 250px;
 }
 
 .actionbanner {
@@ -32,4 +33,47 @@ button.signup{
     border:1px solid white;
     padding: 5px 15px;
     color: white;
+}
+
+
+/* Section two */
+.pseudoimage.info{
+    border:2px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    font-family: "Hero Secondary text", sans-serif;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap:32px;
+    font-family: "Hero Secondary text", sans-serif;
+}
+
+.info{
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+.section.two{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.info.text {
+    text-align: center;
+}
+
+.two .Heading{
+    font-size: 38px;
+    font-family: "Hero Secondary text", sans-serif;
+    font-weight: 850;
+    padding: 36px;
 }
