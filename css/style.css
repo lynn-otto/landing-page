@@ -3,7 +3,7 @@
 }
 
 .section.four {
-    background-color: grey;
+    background-color: white;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -76,4 +76,10 @@ button.signup{
     font-family: "Hero Secondary text", sans-serif;
     font-weight: 850;
     padding: 36px;
+}
+
+/*section three*/
+
+.section.three {
+    background-color: #e5e7eb;
 }
