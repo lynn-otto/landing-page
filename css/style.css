@@ -1,0 +1,7 @@
+.section {
+    height: 180px;
+}
+
+.section.four {
+    background-color: grey;
+}
