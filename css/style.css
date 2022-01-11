@@ -103,3 +103,8 @@ button.signup{
     font-size: 18px;
     font-family: sans-serif;
 }
+
+/* header */
+ul {
+    list-style-type: none;
+}
