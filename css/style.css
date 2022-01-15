@@ -6,9 +6,12 @@ body {
     font-family: sans-serif;
 }
 
+section, header, footer {
+    padding: 0px 40px;
+}
+
 section {
     height: 400px;
-    padding: 0px 32px;
 }
 
 h2, h4, p, ul {
@@ -21,14 +24,25 @@ h2, h4, p, ul {
 ul {
     list-style-type: none;
     display: flex;
+    gap: 16px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 header {
     display: flex;
     align-items: center;
-    border: 2px solid red;
     justify-content: space-between;
-    padding: 0px 32px;
+    background-color: #1F2937;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #f9faf8
 }
 
 
@@ -38,7 +52,6 @@ section.one {
     background-color: #e5e7eb;
     display: flex;
     align-items: center;
-    border: 2px solid blue;
 }
 
 .containerone {
@@ -54,8 +67,6 @@ section.two{
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    border: 2px solid green;
-    padding: 0px 10px;
 }
 
 .pseudoimage.info{
@@ -68,7 +79,8 @@ section.two{
 .information {
     display: flex;
     justify-content: center;
-    gap:32px;
+    border: 0px;
+    gap:45px;
 }
 
 .info{
@@ -76,6 +88,7 @@ section.two{
     display: flex;
     flex-direction: column;
     gap: 4px;
+    border: 0px;
 }
 
 
@@ -84,10 +97,11 @@ section.two{
     text-align: center;
 }
 
-.two .Heading{
-    font-size: 38px;
+.two .heading{
+    font-size: 36px;
     font-weight: 850;
-    padding: 36px;
+    padding: 32px;
+    color: #1F2937
 }
 
 
@@ -98,7 +112,6 @@ section.three {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid blue;
 }
 
 .box {
