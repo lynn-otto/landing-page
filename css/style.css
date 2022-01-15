@@ -1,11 +1,125 @@
+/*general */
+
 body {
     display: flex;
     flex-direction: column;
+    font-family: sans-serif;
 }
 
 section {
     height: 400px;
+    padding: 0px 32px;
 }
+
+h2, h4, p, ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* header */
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+    justify-content: space-between;
+    padding: 0px 32px;
+}
+
+
+/*section one */
+
+section.one {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    border: 2px solid blue;
+}
+
+.containerone {
+    flex: 1;
+    font-size: 32px;
+}
+
+
+/* Section two */
+
+section.two{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    border: 2px solid green;
+    padding: 0px 10px;
+}
+
+.pseudoimage.info{
+    border:2px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap:32px;
+}
+
+.info{
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+
+.info.text {
+    text-align: center;
+}
+
+.two .Heading{
+    font-size: 38px;
+    font-weight: 850;
+    padding: 36px;
+}
+
+
+/*section three*/
+
+section.three {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid blue;
+}
+
+.box {
+    max-width: 800px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cite{
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* section four */
 
 section.four {
     background-color: white;
@@ -24,7 +138,6 @@ section.four {
     justify-content: space-around;
     align-items: center;
     color:white;
-    font-family: "Hero Secondary text", sans-serif;
 }
 
 .call {
@@ -40,120 +153,19 @@ button.signup{
     color: white;
 }
 
-
-/* Section two */
-.pseudoimage.info{
-    border:2px solid #3882f6;
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    font-family: "Hero Secondary text", sans-serif;
-}
-
-.information {
+/* Footer */
+footer{
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
-    gap:32px;
-    font-family: "Hero Secondary text", sans-serif;
-}
-
-.info{
-    max-width: 150px;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-
-
-section.two{
-    display:flex;
-    flex-direction: column;
     align-items: center;
-    gap: 16px;
-    border: 2px solid green;
-    padding: 0px 10px;
+    min-height: 80px;
 }
 
-.info.text {
-    text-align: center;
-}
-
-.two .Heading{
-    font-size: 38px;
-    font-family: "Hero Secondary text", sans-serif;
-    font-weight: 850;
-    padding: 36px;
-}
-
-/*section three*/
-
-section.three {
-    background-color: #e5e7eb;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid blue;
-}
-
-.box {
-    max-width: 800px;
-}
-
-.quote {
-    font-size: 36px;
-    font-family: sans-serif;
-    font-weight: lighter;
-    padding: 0px;
-    margin: 0px;
-}
-
-.cite{
-    text-align: right;
-    font-weight: bold;
+footer p{
     font-size: 18px;
-    font-family: sans-serif;
+    color: white;
 }
 
-/* header */
-ul {
-    list-style-type: none;
-    display: flex;
-    margin: 0;  
-    padding: 0;
-}
 
-header {
-    display: flex;
-    align-items: center;
-    border: 2px solid red;
-    justify-content: space-between;
-    padding: 0px 10px;
-}
 
-section.one {
-    background-color: #e5e7eb;
-    display: flex;
-    align-items: center;
-    border: 2px solid blue;
-    padding: 0px 10px;
-}
-
-.containerone {
-    flex: 1;
-    font-size: 32px;
-}
-
-h2 {
-    padding: 0px;
-    margin: 0px;
-}
-
-h4 {
-    padding: 0px;
-    margin: 0px;
-}
-
-p {
-    padding: 0px;
-    margin: 0px;
-}
