@@ -51,13 +51,29 @@ header h1 {
 section.one {
     background-color: #e5e7eb;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.containerone {
-    flex: 1;
-    font-size: 32px;
+.one .container{
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
 }
+
+.one .left, .one .right {
+    flex: 1 0 auto;
+    border: 2px solid blue;
+    width: auto;
+    height: auto;
+}
+
+.one .img-placeholder{
+    height: 100px;
+    width:  200px;
+}
+
+
 
 
 /* Section two */
